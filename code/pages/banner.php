@@ -5,7 +5,7 @@
         <ul id="menu">
             <li class="home">
                 <a href="index.php">
-                    <img class="icon" src="img/fahasa-logo.png" alt="logo-fahasa">
+                    <img class="icon" src="./img/fahasa-logo.png" alt="logo-fahasa">
                 </a>
             </li>
             <li>

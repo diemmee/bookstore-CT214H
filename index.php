@@ -10,10 +10,10 @@
 <body>
     <div id="page">
     <?php 
-        include('admin/data/connect.php');
-        include("pages/banner.php");
-        include("pages/sidebar.php");
-        include("pages/main.php");
+        include('./admin/data/connect.php');
+        include("./pages/banner.php");
+        include("./pages/sidebar.php");
+        include("./pages/main.php");
         // include("pages/main.php");
 
         ?>

@@ -15,9 +15,9 @@
                 $temp = '';
             }
              if($temp=='timkiem') {
-                include("main/timkiem.php");
+                include("./main/timkiem.php");
             } else {
-                include("main/main-index.php");
+                include("./main/main-index.php");
             }
         ?>
     </div>   

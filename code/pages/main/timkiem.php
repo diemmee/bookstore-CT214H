@@ -32,7 +32,7 @@
             ?>
             <li class='showtimkiem'>
                 <a href="#">
-                    <img src="admin/modules/uploads/<?php echo $row['hinhanh'] ?>">
+                    <img src="./admin/modules/uploads/<?php echo $row['hinhanh'] ?>">
                     <p class="ten"><?php echo $row['tenSach']?></p>
                     <p class="gia"> <?php echo number_format($row['donGia']) . ' đ'?></p>
                 </a>
