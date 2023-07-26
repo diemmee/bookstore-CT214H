@@ -1,0 +1,74 @@
+#admin-page {
+    width: 65vw;
+    height: 97vh;
+    border: solid 2px;
+    margin: 0 auto;
+    font-family: 'Anton', sans-serif;
+    border-radius: 10px;
+}
+
+#admin-banner {
+    background-color: rgb(206, 0, 0);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 110px;
+    display: block;
+    float: left;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+.menuquanly {
+    /* border: 1px solid #15a73a ; */
+    top: 100px;
+    width: 240px;
+    height: 85.8vh;
+    float: left;
+    border-radius: 10px;
+} 
+
+ul#loaiquanly li {
+    list-style-type: none;
+}
+.ten-theloai {
+    font-size: 1.3em;
+    padding-bottom:3px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase ;
+}
+
+#loaiquanly {
+    list-style-type: none;
+    font-size: 24px;
+}
+   
+#loaiquanly li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    margin-left: -40px ;
+    transition: linear 0.5s;
+}
+
+#loaiquanly li a:hover{
+    background: rgb(206, 0, 0);
+}
+.main {
+    float: left;
+    border: 3px solid rgb(187, 0, 0);
+    border-radius: 10px;
+    width: 52.05vw;
+    height: 85.6vh;
+}
+
+.noname {
+    height: 380px ;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+}

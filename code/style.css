@@ -1,0 +1,200 @@
+#page {
+    width: 65vw;
+    height: 80vh;
+    border: solid 2px;
+    margin: 0 auto;
+}
+#banner {
+    background-color: rgb(206, 0, 0);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 110px;
+    display: block;
+    float: left;
+}
+
+#heading1{
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: 5px;
+    width: 5vw;
+}
+#heading2{
+    display: inline-block;
+    width: 18vw;
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* display: block; */
+ }
+
+ #menu li {
+    float: left;
+    margin-left: 10px;
+ }
+
+ .icon{
+    width: 180px;
+    height: 30px;
+    padding-left: 30px;   
+}
+
+#search-box {
+    /* margin-top: 8px; */
+    margin-left: 30px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;
+    
+}
+
+#search-text {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    width:  30vw;
+    border-radius: 10px;
+}
+
+#search-btn {
+    background:rgb(206, 0, 0);
+    border: none;
+    padding: 5px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#search-btn:hover{
+    background: #9b0404;;
+}
+
+.menu-theloai ion-icon {
+    font-size: 2em;
+    padding: -5px;
+    margin-left: 10px;
+}
+
+.noti ion-icon {
+    font-size: 2em;
+    padding: 0 30px 0;
+}
+.cart ion-icon {
+    font-size: 2em;
+    padding: -5px;
+    margin-left: -5px;
+ }
+
+.user {
+    position: relative;
+    top: -10px;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 7px;
+    transition: linear 0.2s;
+}
+
+.user ion-icon {
+    font-size: 2em;
+}
+
+.user:hover {
+    background: #9b0404;
+}
+
+#info {
+    list-style-type: none;
+    overflow: hidden;   
+}
+
+#info li a{
+    width: 100%;
+    margin-left: -50px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-decoration: none;
+    align-items: center;
+    padding: 15px;
+    transition: linear 0.5s; 
+    padding-left: 40px;
+    display: flex;
+}
+
+#info li a:hover{
+    background: #9b0404;
+}
+
+#info li {
+    width: 110px;
+} 
+
+.sidebar {
+    border: 1px solid #15a73a ;
+    top: 100px;
+    width: 230px;
+    height: 69vh;
+    float: left;
+} 
+
+.content {
+    border: 1px solid #5f13eb ;
+    top: 100px;
+    width: 81%;
+    height: 69vh;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.product {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 10px;
+}
+.product li{
+    width: 19%;
+    border: 1px solid #000;
+    float: left;
+    margin: 7px 4px;
+}
+.product li img{
+    width: 100%;
+    height: 180px;
+}
+.product li a{
+   text-decoration: none;
+}
+
+.ten-theloai {
+    font-size: 1.5em;
+    padding-bottom:3px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase ;
+}
+
+#list-theloai {
+    list-style-type: none;
+    font-size: 25px;
+}
+   
+#list-theloai li a{
+    /* width: 100%; */
+    color: rgb(0, 0, 0);
+    /* font-size: 1.5em; */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px 10px;
+    margin-left: -40px ;
+    transition: linear 0.5s;
+}
+
+#list-theloai li a:hover{
+    background: rgb(206, 0, 0);
+}
